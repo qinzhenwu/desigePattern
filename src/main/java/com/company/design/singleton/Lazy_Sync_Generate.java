@@ -16,7 +16,7 @@ public class Lazy_Sync_Generate {
 
     }
 
-    private static volatile Lazy_Sync_Generate instance;
+    private static volatile Lazy_Sync_Generate instance;//volatile防止指令重拍序，文件编译成class文件后，java会翻译成汇编语言，
 
     /**
      * DCL double check lock，双重检查锁定

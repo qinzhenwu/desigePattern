@@ -10,4 +10,9 @@ public class GG {
         System.out.println(g + "gived!");
     }
 
+    public static void main(String[] args) {
+        GG g=new GG();
+        MM mm=new MM();
+        g.chase(mm);
+    }
 }
